@@ -1,7 +1,16 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# IDE (.idea)
-/.idea/
+# IDE
+.idea/
+.vscode/
+
+# JetBrains
+shelf/
+workspace.xml
+
+# Editor HTTP client
+httpRequests/
+
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
