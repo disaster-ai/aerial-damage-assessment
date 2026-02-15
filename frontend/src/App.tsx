@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import MapView from "@/components/MapView";
+import { ChatWidget } from "@/components/ui/ChatWidget.tsx";
 
 export default function App() {
   return (
@@ -34,6 +35,9 @@ export default function App() {
       <div className="flex-1 relative">
         <MapView />
       </div>
+
+      {/* AI Chatbot Button */}
+      <ChatWidget />
 
     </div>
   );
